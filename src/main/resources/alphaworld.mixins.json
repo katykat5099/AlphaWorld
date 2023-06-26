@@ -3,7 +3,7 @@
 	"package": "ca.alphaworld.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-      "ca.alphaworld.mixin.ExampleMixin"
+      "NamelessMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
