@@ -1,5 +1,6 @@
 package ca.alphaworld;
 
+import ca.alphaworld.items_blocks_etc.Blocks;
 import ca.alphaworld.items_blocks_etc.ItemGroups;
 import ca.alphaworld.items_blocks_etc.Items;
 import net.fabricmc.api.ModInitializer;
@@ -21,9 +22,11 @@ public class NamelessMod implements ModInitializer {
 
         LOGGER.info("Hello Fabric world!");
 
-        //Item Group registry
-        ItemGroups.itemGroupRegistry();
         //Item Registry
         Items.itemRegistry();
+        //Block Registry
+        Blocks.blockRegistry();
+        //Item Group registry
+        ItemGroups.itemGroupRegistry();
     }
 }
