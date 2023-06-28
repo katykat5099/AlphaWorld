@@ -12,8 +12,8 @@ import net.minecraft.util.Identifier;
 
 public class Blocks {
     public static final Block GRASS_ITEM_TILE = new Block(FabricBlockSettings.create().breakInstantly().noCollision().mapColor(MapColor.GREEN).strength(1.0f));
-    public static final Block SAPPHIRE_ORE = new Block(FabricBlockSettings.create().requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.METAL));
-    public static final Block RUBY_ORE = new Block(FabricBlockSettings.create().requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.METAL));
+    public static final Block SAPPHIRE_ORE = new Block(FabricBlockSettings.create().requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.METAL).hardness(5.0F));
+    public static final Block RUBY_ORE = new Block(FabricBlockSettings.create().requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.METAL).hardness(1.0F));
 
     //Block Registry
     public static void blockRegistry(){
