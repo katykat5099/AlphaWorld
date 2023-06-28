@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "alphaworld:item/dry_jungle_leaves_item"
+  }
+}
