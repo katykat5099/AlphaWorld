@@ -27,6 +27,6 @@ public class NamelessMod implements ModInitializer {
         //Block Registry
         Blocks.blockRegistry();
         //Item Group registry
-        ItemGroups.itemGroupRegistry();
+        //ItemGroups.itemGroupRegistry();
     }
 }
