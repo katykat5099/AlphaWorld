@@ -39,8 +39,6 @@ public class AlphaWorld2Items {
     public static final Item DRY_LILY_OF_THE_VALLEY_PETALS = new Item(new FabricItemSettings());
     public static final Item WITHER_ROSE_PETALS = new Item(new FabricItemSettings());
     public static final Item DRY_WITHER_ROSE_PETALS = new Item(new FabricItemSettings());
-    public static final Item TORCHFLOWER_PETALS = new Item(new FabricItemSettings());
-    public static final Item DRY_TORCHFLOWER_PETALS = new Item(new FabricItemSettings());
     public static final Item SUNFLOWER_PETALS = new Item(new FabricItemSettings());
     public static final Item DRY_SUNFLOWER_PETALS = new Item(new FabricItemSettings());
     public static final Item LILAC_PETALS = new Item(new FabricItemSettings());
@@ -67,8 +65,6 @@ public class AlphaWorld2Items {
     public static final Item DRY_AZALEA_PETALS = new Item(new FabricItemSettings());
     public static final Item MANGROVE_LEAVES_ITEM = new Item(new FabricItemSettings());
     public static final Item DRY_MANGROVE_LEAVES_ITEM = new Item(new FabricItemSettings());
-    public static final Item CHERRY_LEAVES_ITEM = new Item(new FabricItemSettings());
-    public static final Item DRY_CHERRY_LEAVES_ITEM = new Item(new FabricItemSettings());
     public static final Item FERN_LEAVES = new Item(new FabricItemSettings());
     public static final Item DRY_FERN_LEAVES = new Item(new FabricItemSettings());
     public static final Item STONE_ITEM = new Item(new FabricItemSettings());
@@ -115,8 +111,6 @@ public class AlphaWorld2Items {
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "dry_lily_of_the_valley_petals"), DRY_LILY_OF_THE_VALLEY_PETALS);
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "wither_rose_petals"), WITHER_ROSE_PETALS);
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "dry_wither_rose_petals"), DRY_WITHER_ROSE_PETALS);
-        Registry.register(Registries.ITEM, new Identifier("alphaworld2", "torchflower_petals"), TORCHFLOWER_PETALS);
-        Registry.register(Registries.ITEM, new Identifier("alphaworld2", "dry_torchflower_petals"), DRY_TORCHFLOWER_PETALS);
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "sunflower_petals"), SUNFLOWER_PETALS);
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "dry_sunflower_petals"), DRY_SUNFLOWER_PETALS);
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "lilac_petals"), LILAC_PETALS);
@@ -143,8 +137,6 @@ public class AlphaWorld2Items {
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "dry_azalea_petals"), DRY_AZALEA_PETALS);
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "mangrove_leaves_item"), MANGROVE_LEAVES_ITEM);
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "dry_mangrove_leaves_item"), DRY_MANGROVE_LEAVES_ITEM);
-        Registry.register(Registries.ITEM, new Identifier("alphaworld2", "cherry_leaves_item"), CHERRY_LEAVES_ITEM);
-        Registry.register(Registries.ITEM, new Identifier("alphaworld2", "dry_cherry_leaves_item"), DRY_CHERRY_LEAVES_ITEM);
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "fern_leaves"), FERN_LEAVES);
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "dry_fern_leaves"), DRY_FERN_LEAVES);
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "stone_item"), STONE_ITEM);
