@@ -92,6 +92,7 @@ public class AlphaWorld2ItemGroups {
             content.add(PEARL);
             content.add(SILVER);
             content.add(SALT);
+            content.add(AMETHYST_CUT);
         });
     }
 }

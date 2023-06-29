@@ -79,6 +79,7 @@ public class AlphaWorld2Items {
     public static final Item PEARL = new Item(new FabricItemSettings());
     public static final Item SILVER = new Item(new FabricItemSettings());
     public static final Item SALT = new Item(new FabricItemSettings());
+    public static final Item AMETHYST_CUT = new Item(new FabricItemSettings());
 
     public static void itemRegistry(){
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "dry_grass"), DRY_GRASS);
@@ -151,6 +152,7 @@ public class AlphaWorld2Items {
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "pearl"), PEARL);
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "silver"), SILVER);
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "salt"), SALT);
+        Registry.register(Registries.ITEM, new Identifier("alphaworld2", "amethyst_cut"), AMETHYST_CUT);
 
     }
 }
