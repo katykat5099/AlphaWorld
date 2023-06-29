@@ -85,6 +85,9 @@ public class AlphaWorld2Items {
     public static final Item SILVER = new Item(new FabricItemSettings());
     public static final Item SALT = new Item(new FabricItemSettings());
     public static final Item AMETHYST_CUT = new Item(new FabricItemSettings());
+    public static final Item RAW_TUNGSTEN = new Item(new FabricItemSettings());
+    public static final Item TUNGSTEN = new Item(new FabricItemSettings());
+    public static final Item STEEL = new Item(new FabricItemSettings());
 
     //Tool Items Variables
     public static ToolItem STONE_SHARD_PICKAXE = new CustomPickaxeItem(StoneShardMaterial.INSTANCE, 1, 1, new Item.Settings());
@@ -165,6 +168,9 @@ public class AlphaWorld2Items {
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "silver"), SILVER);
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "salt"), SALT);
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "amethyst_cut"), AMETHYST_CUT);
+        Registry.register(Registries.ITEM, new Identifier("alphaworld2", "raw_tungsten"), RAW_TUNGSTEN);
+        Registry.register(Registries.ITEM, new Identifier("alphaworld2", "tungsten"), TUNGSTEN);
+        Registry.register(Registries.ITEM, new Identifier("alphaworld2", "steel"), STEEL);
 
         //Tool Items Registry
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "stone_shard_pickaxe"), STONE_SHARD_PICKAXE);

@@ -8,6 +8,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 
 import static ca.alphaworld.alphaworld2.AlphaWorld2Mod.LOGGER;
+import static ca.alphaworld.alphaworld2.registries.AlphaWorld2Blocks.*;
 import static ca.alphaworld.alphaworld2.registries.AlphaWorld2Items.*;
 
 public class AlphaWorld2ItemGroups {
@@ -92,12 +93,26 @@ public class AlphaWorld2ItemGroups {
             content.add(EMERALD_CUT);
             content.add(SAPPHIRE);
             content.add(SAPPHIRE_CUT);
+            content.add(SAPPHIRE_ORE);
+            content.add(DEEPSLATE_SAPPHIRE_ORE);
             content.add(RUBY);
             content.add(RUBY_CUT);
+            content.add(RUBY_BLOCK);
+            content.add(RUBY_ORE);
+            content.add(DEEPSLATE_RUBY_ORE);
             content.add(PEARL);
             content.add(SILVER);
+            content.add(SILVER_BLOCK);
+            content.add(SILVER_ORE);
+            content.add(DEEPSLATE_SILVER_ORE);
             content.add(SALT);
             content.add(AMETHYST_CUT);
+            content.add(TUNGSTEN);
+            content.add(TUNGSTEN_BLOCK);
+            content.add(TUNGSTEN_ORE);
+            content.add(DEEPSLATE_TUNGSTEN_ORE);
+            content.add(STEEL);
+            content.add(STEEL_BLOCK);
         });
         ItemGroupEvents.modifyEntriesEvent(ALPHAWORLD2_ITEM_GROUP_TOOLS).register(content -> {
             content.add(STONE_SHARD_PICKAXE);
