@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "W": {
+      "item": "minecraft:stick"
+    },
+    "S": {
+      "item": "alphaworld2:stone_shard"
+    },
+    "G": {
+      "item": "alphaworld2:grass_string"
+    }
+  },
+  "pattern": [
+    "SG",
+    " W"
+  ],
+  "result": {
+    "item": "alphaworld2:stone_shard_pickaxe"
+  },
+  "show_notification": true
+}

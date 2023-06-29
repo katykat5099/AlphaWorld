@@ -1,7 +1,10 @@
 package ca.alphaworld.alphaworld2.registries;
 
+import ca.alphaworld.alphaworld2.data.CustomPickaxeItem;
+import ca.alphaworld.alphaworld2.data.StoneShardMaterial;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
+import net.minecraft.item.ToolItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -81,7 +84,12 @@ public class AlphaWorld2Items {
     public static final Item SALT = new Item(new FabricItemSettings());
     public static final Item AMETHYST_CUT = new Item(new FabricItemSettings());
 
+    //Tool Items Variables
+    public static ToolItem STONE_SHARD_PICKAXE = new CustomPickaxeItem(StoneShardMaterial.INSTANCE, 1, 1, new Item.Settings());
+
     public static void itemRegistry(){
+
+        //Item Registry
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "dry_grass"), DRY_GRASS);
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "grass_item"), GRASS_ITEM);
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "bundle_dry_grass"), BUNDLE_DRY_GRASS);
@@ -153,6 +161,9 @@ public class AlphaWorld2Items {
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "silver"), SILVER);
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "salt"), SALT);
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "amethyst_cut"), AMETHYST_CUT);
+
+        //Tool Items Registry
+        Registry.register(Registries.ITEM, new Identifier("alphaworld2", "stone_shard_pickaxe"), STONE_SHARD_PICKAXE);
 
     }
 }
