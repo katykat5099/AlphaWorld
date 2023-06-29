@@ -9,6 +9,8 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
+import static ca.alphaworld.alphaworld2.AlphaWorld2Mod.LOGGER;
+
 public class AlphaWorld2Items {
 
     //Items Variables
@@ -88,6 +90,8 @@ public class AlphaWorld2Items {
     public static ToolItem STONE_SHARD_PICKAXE = new CustomPickaxeItem(StoneShardMaterial.INSTANCE, 1, 1, new Item.Settings());
 
     public static void itemRegistry(){
+        //Console Log
+        LOGGER.info("Loading Items...");
 
         //Item Registry
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "dry_grass"), DRY_GRASS);

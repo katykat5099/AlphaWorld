@@ -7,6 +7,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 
+import static ca.alphaworld.alphaworld2.AlphaWorld2Mod.LOGGER;
 import static ca.alphaworld.alphaworld2.registries.AlphaWorld2Items.*;
 
 public class AlphaWorld2ItemGroups {
@@ -19,6 +20,9 @@ public class AlphaWorld2ItemGroups {
     private static final ItemGroup ALPHAWORLD2_ITEM_GROUP_TOOLS = FabricItemGroup.builder(new Identifier("alphaworld2", "alphaworld2_item_group_tools")).icon(() -> new ItemStack(STONE_SHARD_PICKAXE)).build();
 
     public static void itemGroupRegistry(){
+        //Console Log
+        LOGGER.info("Loading Item Groups...");
+
         ItemGroupEvents.modifyEntriesEvent(ALPHAWORLD2_ITEM_GROUP_GRASS).register(content -> {
             content.add(GRASS_ITEM);
             content.add(GRASS_STRING);
