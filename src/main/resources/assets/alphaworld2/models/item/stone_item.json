@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "alphaworld2:item/stone_item"
+    "layer0": "alphaworld2:item/mineral/stone_item"
   }
 }

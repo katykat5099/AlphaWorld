@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "alphaworld2:item/oxeye_daisy_petals"
+    "layer0": "alphaworld2:item/petal/oxeye_daisy_petals"
   }
 }

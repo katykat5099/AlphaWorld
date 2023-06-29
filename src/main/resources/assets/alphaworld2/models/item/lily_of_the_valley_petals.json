@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "alphaworld2:item/lily_of_the_valley_petals"
+    "layer0": "alphaworld2:item/petal/lily_of_the_valley_petals"
   }
 }
