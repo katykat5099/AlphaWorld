@@ -83,6 +83,7 @@ public class AlphaWorld2Items {
     public static final Item RUBY_CUT = new Item(new FabricItemSettings());
     public static final Item PEARL = new Item(new FabricItemSettings());
     public static final Item SILVER = new Item(new FabricItemSettings());
+    public static final Item RAW_SILVER = new Item(new FabricItemSettings());
     public static final Item SALT = new Item(new FabricItemSettings());
     public static final Item AMETHYST_CUT = new Item(new FabricItemSettings());
     public static final Item RAW_TUNGSTEN = new Item(new FabricItemSettings());
@@ -166,6 +167,7 @@ public class AlphaWorld2Items {
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "ruby_cut"), RUBY_CUT);
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "pearl"), PEARL);
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "silver"), SILVER);
+        Registry.register(Registries.ITEM, new Identifier("alphaworld2", "raw_silver"), RAW_SILVER);
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "salt"), SALT);
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "amethyst_cut"), AMETHYST_CUT);
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "raw_tungsten"), RAW_TUNGSTEN);
