@@ -16,6 +16,7 @@ public class AlphaWorld2ItemGroups {
     private static final ItemGroup ALPHAWORLD2_ITEM_GROUP_PETALS = FabricItemGroup.builder(new Identifier("alphaworld2", "alphaworld2_item_group_petals")).icon(() -> new ItemStack(BUNDLE_DRY_PETALS)).build();
     private static final ItemGroup ALPHAWORLD2_ITEM_GROUP_LEAVES = FabricItemGroup.builder(new Identifier("alphaworld2", "alphaworld2_item_group_leaves")).icon(() -> new ItemStack(BUNDLE_DRY_LEAVES)).build();
     private static final ItemGroup ALPHAWORLD2_ITEM_GROUP_MINERALS = FabricItemGroup.builder(new Identifier("alphaworld2", "alphaworld2_item_group_minerals")).icon(() -> new ItemStack(STONE_SHARD)).build();
+    private static final ItemGroup ALPHAWORLD2_ITEM_GROUP_TOOLS = FabricItemGroup.builder(new Identifier("alphaworld2", "alphaworld2_item_group_tools")).icon(() -> new ItemStack(STONE_SHARD_PICKAXE)).build();
 
     public static void itemGroupRegistry(){
         ItemGroupEvents.modifyEntriesEvent(ALPHAWORLD2_ITEM_GROUP_GRASS).register(content -> {
@@ -93,6 +94,9 @@ public class AlphaWorld2ItemGroups {
             content.add(SILVER);
             content.add(SALT);
             content.add(AMETHYST_CUT);
+        });
+        ItemGroupEvents.modifyEntriesEvent(ALPHAWORLD2_ITEM_GROUP_TOOLS).register(content -> {
+            content.add(STONE_SHARD_PICKAXE);
         });
     }
 }
