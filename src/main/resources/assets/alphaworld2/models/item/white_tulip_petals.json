@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "alphaworld2:item/white_tulip_petals"
+    "layer0": "alphaworld2:item/petal/white_tulip_petals"
   }
 }
