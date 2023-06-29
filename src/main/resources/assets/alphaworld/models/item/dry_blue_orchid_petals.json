@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "alphaworld:item/dry_blue_orchid_petals"
-  }
-}
