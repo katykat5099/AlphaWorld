@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "alphaworld2:grass_item"
+    },
+    {
+      "item": "alphaworld2:grass_item"
+    },
+    {
+      "item": "alphaworld2:grass_item"
+    }
+  ],
+  "result": {
+    "item": "alphaworld2:grass_string"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "alphaworld2:dry_grass"
+    }
+  },
+  "pattern": [
+    " D ",
+    "DDD"
+  ],
+  "result": {
+    "count": 1,
+    "item": "alphaworld2:bundle_dry_grass"
+  },
+  "show_notification": true
+}
