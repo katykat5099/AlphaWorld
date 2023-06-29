@@ -1,6 +1,6 @@
-package net.fabricmc.example.mixin;
+package ca.alphaworld.alphaworld2.mixin;
 
-import net.fabricmc.example.AlphaWorld2Mod;
+import ca.alphaworld.alphaworld2.AlphaWorld2Mod;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;

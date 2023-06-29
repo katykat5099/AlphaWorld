@@ -1,5 +1,8 @@
 package ca.alphaworld.alphaworld2;
 
+import ca.alphaworld.alphaworld2.registries.AlphaWorld2Blocks;
+import ca.alphaworld.alphaworld2.registries.AlphaWorld2ItemGroups;
+import ca.alphaworld.alphaworld2.registries.AlphaWorld2Items;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -17,5 +20,14 @@ public class AlphaWorld2Mod implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!");
+
+		//Register Items
+		AlphaWorld2Items.itemRegistry();
+
+		//Register Blocks
+		AlphaWorld2Blocks.blockRegistry();
+
+		//Register Item Group
+		AlphaWorld2ItemGroups.itemGroupRegistry();
 	}
 }
