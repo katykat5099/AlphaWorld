@@ -93,8 +93,8 @@
   "block.alphaworld2.steel_block": "Block Of Steel",
 
   "itemGroup.alphaworld2.alphaworld2_item_group_grass": "Alpha World 2 Grass Items",
-  "itemGroup.alphaworld2.alphaworld2.item_group_petals": "Alpha World 2 Petal Items",
-  "itemGroup.alphaworld2.alphaworld2.item_group_leaves": "Alpha World 2 Leaf Items",
-  "itemGroup.alphaworld2.alphaworld2.item_group_minerals": "Alpha World 2 Mineral Items",
-  "itemGroup.alphaworld2.alphaworld2.item_group_tools": "Alpha World 2 Tools"
+  "itemGroup.alphaworld2.alphaworld2_item_group_petals": "Alpha World 2 Petal Items",
+  "itemGroup.alphaworld2.alphaworld2_item_group_leaves": "Alpha World 2 Leaf Items",
+  "itemGroup.alphaworld2.alphaworld2_item_group_minerals": "Alpha World 2 Mineral Items",
+  "itemGroup.alphaworld2.alphaworld2_item_group_tools": "Alpha World 2 Tools"
 }
