@@ -1,5 +1,6 @@
 package ca.alphaworld.alphaworld2.data;
 
+import ca.alphaworld.alphaworld2.registries.AlphaWorld2Items;
 import net.minecraft.item.*;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.sound.SoundEvent;
@@ -18,7 +19,7 @@ public enum CustomArmorMaterial implements ArmorMaterial {
         map.put(ArmorItem.Type.LEGGINGS, 6);
         map.put(ArmorItem.Type.CHESTPLATE, 8);
         map.put(ArmorItem.Type.HELMET, 3);
-    }), 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0f, 0.0f, () -> Ingredient.ofItems(Items.DIAMOND));
+    }), 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0f, 0.0f, () -> Ingredient.ofItems(AlphaWorld2Items.STEEL_INGOT));
 
     private static final EnumMap<ArmorItem.Type, Integer> BASE_DURABILITY;
     private final String name;
@@ -38,17 +39,17 @@ public enum CustomArmorMaterial implements ArmorMaterial {
         this.equipSound = equipSound;
         this.toughness = toughness;
         this.knockbackResistance = knockbackResistance;
-        this.repairIngredientSupplier = new Lazy<Ingredient>(repairIngredientSupplier);
+        this.repairIngredientSupplier = new Lazy<>(repairIngredientSupplier);
     }
 
     @Override
     public int getDurability(ArmorItem.Type type) {
-        return BASE_DURABILITY.get((Object)type) * this.durabilityMultiplier;
+        return BASE_DURABILITY.get(type) * this.durabilityMultiplier;
     }
 
     @Override
     public int getProtection(ArmorItem.Type type) {
-        return this.protectionAmounts.get((Object)type);
+        return this.protectionAmounts.get(type);
     }
 
     @Override
