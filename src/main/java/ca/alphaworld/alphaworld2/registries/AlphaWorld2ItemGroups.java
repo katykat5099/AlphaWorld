@@ -101,12 +101,14 @@ public class AlphaWorld2ItemGroups {
             content.add(RUBY_ORE);
             content.add(DEEPSLATE_RUBY_ORE);
             content.add(PEARL);
+            content.add(RAW_SILVER);
             content.add(SILVER_INGOT);
             content.add(SILVER_BLOCK);
             content.add(SILVER_ORE);
             content.add(DEEPSLATE_SILVER_ORE);
             content.add(SALT);
             content.add(AMETHYST_CUT);
+            content.add(RAW_TUNGSTEN);
             content.add(TUNGSTEN_INGOT);
             content.add(TUNGSTEN_BLOCK);
             content.add(TUNGSTEN_ORE);
