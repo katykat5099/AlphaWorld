@@ -2,10 +2,8 @@ package ca.alphaworld.alphaworld2.registries;
 
 import ca.alphaworld.alphaworld2.data.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.minecraft.item.Item;
-import net.minecraft.item.ShovelItem;
-import net.minecraft.item.SwordItem;
-import net.minecraft.item.ToolItem;
+import net.minecraft.entity.EquipmentSlot;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -99,6 +97,12 @@ public class AlphaWorld2Items {
     public static ToolItem STEEL_AXE = new CustomAxeItem(SteelMaterial.INSTANCE, 9, 1.0F, new Item.Settings());
     public static ToolItem STEEL_HOE = new CustomHoeItem(SteelMaterial.INSTANCE, 4, 1.0F, new Item.Settings());
 
+    //Armor Items Variables
+    public static final Item STEEL_HELMET = new SteelArmorItem(CustomArmorMaterial.STEEL, ArmorItem.Type.HELMET, new FabricItemSettings());
+    public static final Item STEEL_CHESTPLATE = new SteelArmorItem(CustomArmorMaterial.STEEL, ArmorItem.Type.CHESTPLATE, new FabricItemSettings());
+    public static final Item STEEL_LEGGINGS = new SteelArmorItem(CustomArmorMaterial.STEEL, ArmorItem.Type.LEGGINGS, new FabricItemSettings());
+    public static final Item STEEL_BOOTS = new SteelArmorItem(CustomArmorMaterial.STEEL, ArmorItem.Type.BOOTS, new FabricItemSettings());
+
     public static void itemRegistry(){
         //Console Log
         LOGGER.info("Loading Items...");
@@ -187,5 +191,11 @@ public class AlphaWorld2Items {
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "steel_pickaxe"), STEEL_PICKAXE);
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "steel_axe"), STEEL_AXE);
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "steel_hoe"), STEEL_HOE);
+
+        //Armor Items Registry
+        Registry.register(Registries.ITEM, new Identifier("alphaworld2", "steel_helmet"), STEEL_HELMET);
+        Registry.register(Registries.ITEM, new Identifier("alphaworld2", "steel_chestplate"), STEEL_CHESTPLATE);
+        Registry.register(Registries.ITEM, new Identifier("alphaworld2", "steel_leggings"), STEEL_LEGGINGS);
+        Registry.register(Registries.ITEM, new Identifier("alphaworld2", "steel_boots"), STEEL_BOOTS);
     }
 }

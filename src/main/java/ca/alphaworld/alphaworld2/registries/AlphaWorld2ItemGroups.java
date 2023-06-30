@@ -123,6 +123,10 @@ public class AlphaWorld2ItemGroups {
             content.add(STEEL_PICKAXE);
             content.add(STEEL_AXE);
             content.add(STEEL_HOE);
+            content.add(STEEL_HELMET);
+            content.add(STEEL_CHESTPLATE);
+            content.add(STEEL_LEGGINGS);
+            content.add(STEEL_BOOTS);
         });
     }
 }
