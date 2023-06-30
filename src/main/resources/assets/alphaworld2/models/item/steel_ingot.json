@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "alphaworld2:item/tungsten"
+    "layer0": "alphaworld2:item/mineral/steel_ingot"
   }
 }
