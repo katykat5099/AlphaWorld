@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "alphaworld2:item/mineral/stone_shard"
+    "layer0": "alphaworld2:item/gear/steel_shovel"
   }
 }

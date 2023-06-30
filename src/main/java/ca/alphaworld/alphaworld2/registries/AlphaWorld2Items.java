@@ -1,9 +1,10 @@
 package ca.alphaworld.alphaworld2.registries;
 
-import ca.alphaworld.alphaworld2.data.CustomPickaxeItem;
-import ca.alphaworld.alphaworld2.data.StoneShardMaterial;
+import ca.alphaworld.alphaworld2.data.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
+import net.minecraft.item.ShovelItem;
+import net.minecraft.item.SwordItem;
 import net.minecraft.item.ToolItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -92,6 +93,11 @@ public class AlphaWorld2Items {
 
     //Tool Items Variables
     public static ToolItem STONE_SHARD_PICKAXE = new CustomPickaxeItem(StoneShardMaterial.INSTANCE, 1, 1, new Item.Settings());
+    public static ToolItem STEEL_SHOVEL = new ShovelItem(SteelMaterial.INSTANCE, 5.5F, 1.0F, new Item.Settings());
+    public static ToolItem STEEL_SWORD = new SwordItem(SteelMaterial.INSTANCE, 9, 1.0F, new Item.Settings());
+    public static ToolItem STEEL_PICKAXE = new CustomPickaxeItem(SteelMaterial.INSTANCE, 5, 1.2F, new Item.Settings());
+    public static ToolItem STEEL_AXE = new CustomAxeItem(SteelMaterial.INSTANCE, 9, 1.0F, new Item.Settings());
+    public static ToolItem STEEL_HOE = new CustomHoeItem(SteelMaterial.INSTANCE, 4, 1.0F, new Item.Settings());
 
     public static void itemRegistry(){
         //Console Log
@@ -176,6 +182,10 @@ public class AlphaWorld2Items {
 
         //Tool Items Registry
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "stone_shard_pickaxe"), STONE_SHARD_PICKAXE);
-
+        Registry.register(Registries.ITEM, new Identifier("alphaworld2", "steel_shovel"), STEEL_SHOVEL);
+        Registry.register(Registries.ITEM, new Identifier("alphaworld2", "steel_sword"), STEEL_SWORD);
+        Registry.register(Registries.ITEM, new Identifier("alphaworld2", "steel_pickaxe"), STEEL_PICKAXE);
+        Registry.register(Registries.ITEM, new Identifier("alphaworld2", "steel_axe"), STEEL_AXE);
+        Registry.register(Registries.ITEM, new Identifier("alphaworld2", "steel_hoe"), STEEL_HOE);
     }
 }

@@ -118,6 +118,11 @@ public class AlphaWorld2ItemGroups {
         });
         ItemGroupEvents.modifyEntriesEvent(ALPHAWORLD2_ITEM_GROUP_TOOLS).register(content -> {
             content.add(STONE_SHARD_PICKAXE);
+            content.add(STEEL_SHOVEL);
+            content.add(STEEL_SWORD);
+            content.add(STEEL_PICKAXE);
+            content.add(STEEL_AXE);
+            content.add(STEEL_HOE);
         });
     }
 }
