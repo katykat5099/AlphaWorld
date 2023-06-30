@@ -2,6 +2,10 @@
   "replace": false,
   "values": [
     "alphaworld2:sapphire_ore",
-    "alphaworld2:ruby_ore"
+    "alphaworld2:deepslate_sapphire_ore",
+    "alphaworld2:ruby_ore",
+    "alphaworld2:deepslate_ruby_ore",
+    "alphaworld2:tungsten_ore",
+    "alphaworld2:deepslate_tungsten_ore"
   ]
 }
