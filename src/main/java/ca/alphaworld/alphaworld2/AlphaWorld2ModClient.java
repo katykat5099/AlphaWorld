@@ -19,7 +19,7 @@ public class AlphaWorld2ModClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         LOGGER.info("Initializing Client...");
-        keyBinding = KeyBindingHelper.registerKeyBinding(new KeyBinding("key.alphaworld2.test_gui", InputUtil.Type.KEYSYM, GLFW.GLFW_KEY_R, "category.alphaworld2.testing"));
+        keyBinding = KeyBindingHelper.registerKeyBinding(new KeyBinding("key.alphaworld2.test_gui", InputUtil.Type.KEYSYM, GLFW.GLFW_KEY_N, "category.alphaworld2.testing"));
 
         ClientTickEvents.END_CLIENT_TICK.register(client -> {while(keyBinding.wasPressed()){
             MinecraftClient.getInstance().setScreen(new TestScreen(new TestGui()));
