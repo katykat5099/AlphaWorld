@@ -1,6 +1,9 @@
 package ca.alphaworld.alphaworld2.registries;
 
 import ca.alphaworld.alphaworld2.data.*;
+import ca.alphaworld.alphaworld2.data.items.SteelArmorItem;
+import ca.alphaworld.alphaworld2.data.items.SteelMaterial;
+import ca.alphaworld.alphaworld2.data.items.StoneShardMaterial;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
@@ -11,13 +14,15 @@ import static ca.alphaworld.alphaworld2.AlphaWorld2Mod.LOGGER;
 
 public class AlphaWorld2Items {
 
-    //Items Variables
-    public static final Item DRY_GRASS = new Item(new FabricItemSettings());
+    //Items Variables (set item constructors)
+    //Grass & Dry Grass Materials
     public static final Item GRASS_ITEM = new Item(new FabricItemSettings());
+    public static final Item DRY_GRASS = new Item(new FabricItemSettings());
+    //---------------------------------------------------------------------------------------
+    public static final Item GRASS_STRING = new Item(new FabricItemSettings());
     public static final Item BUNDLE_DRY_GRASS = new Item(new FabricItemSettings());
-    public static final Item BUNDLE_DRY_LEAVES = new Item(new FabricItemSettings());
-    public static final Item BUNDLE_DRY_PETALS = new Item(new FabricItemSettings());
-    public static final Item BUNDLE_DRY_FLORA = new Item(new FabricItemSettings());
+
+    //Petals & Dry Petal Materials
     public static final Item POPPY_PETALS = new Item(new FabricItemSettings());
     public static final Item DRY_POPPY_PETALS = new Item(new FabricItemSettings());
     public static final Item BLUE_ORCHID_PETALS = new Item(new FabricItemSettings());
@@ -41,7 +46,6 @@ public class AlphaWorld2Items {
     public static final Item LILY_OF_THE_VALLEY_PETALS = new Item(new FabricItemSettings());
     public static final Item DRY_LILY_OF_THE_VALLEY_PETALS = new Item(new FabricItemSettings());
     public static final Item WITHER_ROSE_PETALS = new Item(new FabricItemSettings());
-    public static final Item DRY_WITHER_ROSE_PETALS = new Item(new FabricItemSettings());
     public static final Item SUNFLOWER_PETALS = new Item(new FabricItemSettings());
     public static final Item DRY_SUNFLOWER_PETALS = new Item(new FabricItemSettings());
     public static final Item LILAC_PETALS = new Item(new FabricItemSettings());
@@ -52,6 +56,10 @@ public class AlphaWorld2Items {
     public static final Item DRY_PEONY_PETALS = new Item(new FabricItemSettings());
     public static final Item DANDELION_PETALS = new Item(new FabricItemSettings());
     public static final Item DRY_DANDELION_PETALS = new Item(new FabricItemSettings());
+    //---------------------------------------------------------------------------------------
+    public static final Item BUNDLE_DRY_PETALS = new Item(new FabricItemSettings());
+
+    //Leaves & Dry Leaves
     public static final Item OAK_LEAVES_ITEM = new Item(new FabricItemSettings());
     public static final Item DRY_OAK_LEAVES_ITEM = new Item(new FabricItemSettings());
     public static final Item SPRUCE_LEAVES_ITEM = new Item(new FabricItemSettings());
@@ -72,25 +80,28 @@ public class AlphaWorld2Items {
     public static final Item DRY_MANGROVE_LEAVES_ITEM = new Item(new FabricItemSettings());
     public static final Item FERN_LEAVES = new Item(new FabricItemSettings());
     public static final Item DRY_FERN_LEAVES = new Item(new FabricItemSettings());
-    public static final Item STONE_ITEM = new Item(new FabricItemSettings());
-    public static final Item STONE_SHARD = new Item(new FabricItemSettings());
-    public static final Item GRASS_STRING = new Item(new FabricItemSettings());
+    //---------------------------------------------------------------------------------------
+    public static final Item BUNDLE_DRY_LEAVES = new Item(new FabricItemSettings());
+
+    //Stone, Gem and Metal Materials
     public static final Item DIAMOND_CUT = new Item(new FabricItemSettings());
     public static final Item EMERALD_CUT = new Item(new FabricItemSettings());
+    public static final Item AMETHYST_CUT = new Item(new FabricItemSettings());
+    public static final Item STONE_ITEM = new Item(new FabricItemSettings());
+    public static final Item STONE_SHARD = new Item(new FabricItemSettings());
     public static final Item SAPPHIRE = new Item(new FabricItemSettings());
     public static final Item SAPPHIRE_CUT = new Item(new FabricItemSettings());
     public static final Item RUBY = new Item(new FabricItemSettings());
     public static final Item RUBY_CUT = new Item(new FabricItemSettings());
     public static final Item PEARL = new Item(new FabricItemSettings());
-    public static final Item SILVER_INGOT = new Item(new FabricItemSettings());
     public static final Item RAW_SILVER = new Item(new FabricItemSettings());
-    public static final Item SALT = new Item(new FabricItemSettings());
-    public static final Item AMETHYST_CUT = new Item(new FabricItemSettings());
+    public static final Item SILVER_INGOT = new Item(new FabricItemSettings());
     public static final Item RAW_TUNGSTEN = new Item(new FabricItemSettings());
     public static final Item TUNGSTEN_INGOT = new Item(new FabricItemSettings());
     public static final Item STEEL_INGOT = new Item(new FabricItemSettings());
+    public static final Item SALT = new Item(new FabricItemSettings());
 
-    //Tool Items Variables
+    //Tool Items
     public static ToolItem STONE_SHARD_PICKAXE = new CustomPickaxeItem(StoneShardMaterial.INSTANCE, 1, 1, new Item.Settings());
     public static ToolItem STEEL_SHOVEL = new ShovelItem(SteelMaterial.INSTANCE, 5.5F, 1.0F, new Item.Settings());
     public static ToolItem STEEL_SWORD = new SwordItem(SteelMaterial.INSTANCE, 9, 1.0F, new Item.Settings());
@@ -98,11 +109,14 @@ public class AlphaWorld2Items {
     public static ToolItem STEEL_AXE = new CustomAxeItem(SteelMaterial.INSTANCE, 9, 1.0F, new Item.Settings());
     public static ToolItem STEEL_HOE = new CustomHoeItem(SteelMaterial.INSTANCE, 4, 1.0F, new Item.Settings());
 
-    //Armor Items Variables
+    //Armor Items
     public static final Item STEEL_HELMET = new SteelArmorItem(CustomArmorMaterial.STEEL, ArmorItem.Type.HELMET, new FabricItemSettings());
     public static final Item STEEL_CHESTPLATE = new SteelArmorItem(CustomArmorMaterial.STEEL, ArmorItem.Type.CHESTPLATE, new FabricItemSettings());
     public static final Item STEEL_LEGGINGS = new SteelArmorItem(CustomArmorMaterial.STEEL, ArmorItem.Type.LEGGINGS, new FabricItemSettings());
     public static final Item STEEL_BOOTS = new SteelArmorItem(CustomArmorMaterial.STEEL, ArmorItem.Type.BOOTS, new FabricItemSettings());
+
+    //Misc
+    public static final Item BUNDLE_DRY_FLORA = new Item(new FabricItemSettings());
 
     public static void itemRegistry(){
         //Console Log
@@ -138,7 +152,6 @@ public class AlphaWorld2Items {
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "lily_of_the_valley_petals"), LILY_OF_THE_VALLEY_PETALS);
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "dry_lily_of_the_valley_petals"), DRY_LILY_OF_THE_VALLEY_PETALS);
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "wither_rose_petals"), WITHER_ROSE_PETALS);
-        Registry.register(Registries.ITEM, new Identifier("alphaworld2", "dry_wither_rose_petals"), DRY_WITHER_ROSE_PETALS);
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "sunflower_petals"), SUNFLOWER_PETALS);
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "dry_sunflower_petals"), DRY_SUNFLOWER_PETALS);
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "lilac_petals"), LILAC_PETALS);

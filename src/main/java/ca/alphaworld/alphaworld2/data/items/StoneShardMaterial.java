@@ -1,39 +1,39 @@
-package ca.alphaworld.alphaworld2.data;
+package ca.alphaworld.alphaworld2.data.items;
 
-import ca.alphaworld.alphaworld2.registries.AlphaWorld2Items;
+import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
-public class SteelMaterial implements ToolMaterial {
-    public static final SteelMaterial INSTANCE = new SteelMaterial();
+public class StoneShardMaterial implements ToolMaterial {
+    public static final StoneShardMaterial INSTANCE = new StoneShardMaterial();
 
     @Override
     public int getDurability(){
-        return 1561;
+        return 13;
     }
 
     @Override
     public float getMiningSpeedMultiplier(){
-        return 8.0F;
+        return 1.2F;
     }
 
     @Override
     public float getAttackDamage(){
-        return 5.0F;
+        return 1.5F;
     }
 
     @Override
     public int getMiningLevel(){
-        return 3;
+        return 1;
     }
 
     @Override
     public int getEnchantability(){
-        return 10;
+        return 1;
     }
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(AlphaWorld2Items.STEEL_INGOT);
+        return Ingredient.ofItems(Items.AIR);
     }
 }

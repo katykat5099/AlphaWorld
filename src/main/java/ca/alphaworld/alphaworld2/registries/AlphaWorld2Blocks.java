@@ -13,7 +13,8 @@ import static ca.alphaworld.alphaworld2.AlphaWorld2Mod.LOGGER;
 
 public class AlphaWorld2Blocks {
 
-    //Block Variables
+    //Block Variables (set item constructors)
+    //Minerals, Ores, Other metals/stones/gems related blocks
     public static final Block SAPPHIRE_ORE = new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool());
     public static final Block DEEPSLATE_SAPPHIRE_ORE = new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool());
     public static final Block RUBY_ORE = new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool());

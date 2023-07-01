@@ -1,4 +1,4 @@
-package ca.alphaworld.alphaworld2.data;
+package ca.alphaworld.alphaworld2.data.items;
 
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;

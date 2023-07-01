@@ -54,7 +54,6 @@ public class AlphaWorld2ItemGroups {
             content.add(LILY_OF_THE_VALLEY_PETALS);
             content.add(DRY_LILY_OF_THE_VALLEY_PETALS);
             content.add(WITHER_ROSE_PETALS);
-            content.add(DRY_WITHER_ROSE_PETALS);
             content.add(SUNFLOWER_PETALS);
             content.add(DRY_SUNFLOWER_PETALS);
             content.add(LILAC_PETALS);
@@ -67,6 +66,7 @@ public class AlphaWorld2ItemGroups {
             content.add(DRY_AZALEA_PETALS);
             content.add(DANDELION_PETALS);
             content.add(DRY_DANDELION_PETALS);
+            content.add(BUNDLE_DRY_PETALS);
         });
         ItemGroupEvents.modifyEntriesEvent(ALPHAWORLD2_ITEM_GROUP_LEAVES).register(content -> {
             content.add(OAK_LEAVES_ITEM);
@@ -87,36 +87,38 @@ public class AlphaWorld2ItemGroups {
             content.add(DRY_MANGROVE_LEAVES_ITEM);
             content.add(FERN_LEAVES);
             content.add(DRY_FERN_LEAVES);
+            content.add(BUNDLE_DRY_LEAVES);
         });
         ItemGroupEvents.modifyEntriesEvent(ALPHAWORLD2_ITEM_GROUP_MINERALS).register(content -> {
-            content.add(STONE_ITEM);
-            content.add(STONE_SHARD);
             content.add(DIAMOND_CUT);
             content.add(EMERALD_CUT);
-            content.add(SAPPHIRE);
-            content.add(SAPPHIRE_CUT);
+            content.add(AMETHYST_CUT);
+            content.add(STONE_ITEM);
+            content.add(STONE_SHARD);
             content.add(SAPPHIRE_ORE);
             content.add(DEEPSLATE_SAPPHIRE_ORE);
+            content.add(SAPPHIRE);
+            content.add(SAPPHIRE_CUT);
+            content.add(SAPPHIRE_BLOCK);
+            content.add(RUBY_ORE);
+            content.add(DEEPSLATE_RUBY_ORE);
             content.add(RUBY);
             content.add(RUBY_CUT);
             content.add(RUBY_BLOCK);
-            content.add(RUBY_ORE);
-            content.add(DEEPSLATE_RUBY_ORE);
             content.add(PEARL);
+            content.add(SILVER_ORE);
+            content.add(DEEPSLATE_SILVER_ORE);
             content.add(RAW_SILVER);
             content.add(SILVER_INGOT);
             content.add(SILVER_BLOCK);
-            content.add(SILVER_ORE);
-            content.add(DEEPSLATE_SILVER_ORE);
-            content.add(SALT);
-            content.add(AMETHYST_CUT);
+            content.add(TUNGSTEN_ORE);
+            content.add(DEEPSLATE_TUNGSTEN_ORE);
             content.add(RAW_TUNGSTEN);
             content.add(TUNGSTEN_INGOT);
             content.add(TUNGSTEN_BLOCK);
-            content.add(TUNGSTEN_ORE);
-            content.add(DEEPSLATE_TUNGSTEN_ORE);
             content.add(STEEL_INGOT);
             content.add(STEEL_BLOCK);
+            content.add(SALT);
         });
         ItemGroupEvents.modifyEntriesEvent(ALPHAWORLD2_ITEM_GROUP_TOOLS).register(content -> {
             content.add(STONE_SHARD_PICKAXE);
