@@ -65,6 +65,8 @@ public class AlphaWorld2ItemGroups {
             content.add(DRY_PEONY_PETALS);
             content.add(AZALEA_PETALS);
             content.add(DRY_AZALEA_PETALS);
+            content.add(DANDELION_PETALS);
+            content.add(DRY_DANDELION_PETALS);
         });
         ItemGroupEvents.modifyEntriesEvent(ALPHAWORLD2_ITEM_GROUP_LEAVES).register(content -> {
             content.add(OAK_LEAVES_ITEM);

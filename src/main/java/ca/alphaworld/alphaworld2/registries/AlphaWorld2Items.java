@@ -50,6 +50,8 @@ public class AlphaWorld2Items {
     public static final Item DRY_ROSE_PETALS = new Item(new FabricItemSettings());
     public static final Item PEONY_PETALS = new Item(new FabricItemSettings());
     public static final Item DRY_PEONY_PETALS = new Item(new FabricItemSettings());
+    public static final Item DANDELION_PETALS = new Item(new FabricItemSettings());
+    public static final Item DRY_DANDELION_PETALS = new Item(new FabricItemSettings());
     public static final Item OAK_LEAVES_ITEM = new Item(new FabricItemSettings());
     public static final Item DRY_OAK_LEAVES_ITEM = new Item(new FabricItemSettings());
     public static final Item SPRUCE_LEAVES_ITEM = new Item(new FabricItemSettings());
@@ -145,6 +147,8 @@ public class AlphaWorld2Items {
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "dry_rose_petals"), DRY_ROSE_PETALS);
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "peony_petals"), PEONY_PETALS);
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "dry_peony_petals"), DRY_PEONY_PETALS);
+        Registry.register(Registries.ITEM, new Identifier("alphaworld2", "dandelion_petals"), DANDELION_PETALS);
+        Registry.register(Registries.ITEM, new Identifier("alphaworld2", "dry_dandelion_petals"), DRY_DANDELION_PETALS);
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "oak_leaves_item"), OAK_LEAVES_ITEM);
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "dry_oak_leaves_item"), DRY_OAK_LEAVES_ITEM);
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "spruce_leaves_item"), SPRUCE_LEAVES_ITEM);
