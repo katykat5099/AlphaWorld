@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "ca.alphaworld.alphaworld2.AlphaWorld2Mod"
+    ],
+    "client": [
+      "ca.alphaworld.alphaworld2.AlphaWorld2ModClient"
     ]
   },
   "mixins": [
