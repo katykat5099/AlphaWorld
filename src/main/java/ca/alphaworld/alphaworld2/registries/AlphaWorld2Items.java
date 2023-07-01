@@ -2,7 +2,6 @@ package ca.alphaworld.alphaworld2.registries;
 
 import ca.alphaworld.alphaworld2.data.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
