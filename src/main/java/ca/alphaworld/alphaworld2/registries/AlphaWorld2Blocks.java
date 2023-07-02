@@ -7,6 +7,7 @@ import net.minecraft.block.Material;
 import net.minecraft.item.BlockItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 import static ca.alphaworld.alphaworld2.AlphaWorld2Mod.LOGGER;
@@ -23,11 +24,11 @@ public class AlphaWorld2Blocks {
     public static final Block DEEPSLATE_SILVER_ORE = new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool());
     public static final Block TUNGSTEN_ORE = new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool());
     public static final Block DEEPSLATE_TUNGSTEN_ORE = new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool());
-    public static final Block SAPPHIRE_BLOCK = new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool());
-    public static final Block RUBY_BLOCK = new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool());
-    public static final Block SILVER_BLOCK = new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool());
-    public static final Block TUNGSTEN_BLOCK = new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool());
-    public static final Block STEEL_BLOCK = new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool());
+    public static final Block SAPPHIRE_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool().sounds(BlockSoundGroup.METAL));
+    public static final Block RUBY_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool().sounds(BlockSoundGroup.METAL));
+    public static final Block SILVER_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool().sounds(BlockSoundGroup.METAL));
+    public static final Block TUNGSTEN_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool().sounds(BlockSoundGroup.METAL));
+    public static final Block STEEL_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool().sounds(BlockSoundGroup.METAL));
 
     public static void blockRegistry(){
         //Console Log

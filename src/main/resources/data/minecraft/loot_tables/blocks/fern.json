@@ -8,7 +8,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "alphaworld2:fern_leaves"
+          "name": "alphaworld2:fern_leaf"
         },
         {
           "type": "minecraft:alternatives",

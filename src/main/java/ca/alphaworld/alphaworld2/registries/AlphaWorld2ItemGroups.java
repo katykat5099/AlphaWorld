@@ -14,7 +14,7 @@ import static ca.alphaworld.alphaworld2.registries.AlphaWorld2Items.*;
 public class AlphaWorld2ItemGroups {
 
     //Item Group Variables
-    private static final ItemGroup ALPHAWORLD2_ITEM_GROUP_GRASS = FabricItemGroup.builder(new Identifier("alphaworld2", "alphaworld2_item_group_grass")).icon(() -> new ItemStack(BUNDLE_DRY_GRASS)).build();
+    private static final ItemGroup ALPHAWORLD2_ITEM_GROUP_PLANT_MATTER = FabricItemGroup.builder(new Identifier("alphaworld2", "alphaworld2_item_group_plant_matter")).icon(() -> new ItemStack(BUNDLE_DRY_GRASS)).build();
     private static final ItemGroup ALPHAWORLD2_ITEM_GROUP_PETALS = FabricItemGroup.builder(new Identifier("alphaworld2", "alphaworld2_item_group_petals")).icon(() -> new ItemStack(BUNDLE_DRY_PETALS)).build();
     private static final ItemGroup ALPHAWORLD2_ITEM_GROUP_LEAVES = FabricItemGroup.builder(new Identifier("alphaworld2", "alphaworld2_item_group_leaves")).icon(() -> new ItemStack(BUNDLE_DRY_LEAVES)).build();
     private static final ItemGroup ALPHAWORLD2_ITEM_GROUP_MINERALS = FabricItemGroup.builder(new Identifier("alphaworld2", "alphaworld2_item_group_minerals")).icon(() -> new ItemStack(STONE_SHARD)).build();
@@ -24,12 +24,19 @@ public class AlphaWorld2ItemGroups {
         //Console Log
         LOGGER.info("Loading Item Groups...");
 
-        ItemGroupEvents.modifyEntriesEvent(ALPHAWORLD2_ITEM_GROUP_GRASS).register(content -> {
+        ItemGroupEvents.modifyEntriesEvent(ALPHAWORLD2_ITEM_GROUP_PLANT_MATTER).register(content -> {
             content.add(GRASS_ITEM);
             content.add(GRASS_STRING);
             content.add(DRY_GRASS);
             content.add(BUNDLE_DRY_GRASS);
+            content.add(VINE_ITEM);
+            content.add(SEA_GRASS_ITEM);
+            content.add(ROOT_ITEM);
+            content.add(GLOW_LICHEN_ITEM);
+            content.add(CRIMSON_FUNGUS_GRASS);
+            content.add(WARPED_FUNGUS_GRASS);
         });
+
         ItemGroupEvents.modifyEntriesEvent(ALPHAWORLD2_ITEM_GROUP_PETALS).register(content -> {
             content.add(POPPY_PETALS);
             content.add(DRY_POPPY_PETALS);
@@ -66,6 +73,7 @@ public class AlphaWorld2ItemGroups {
             content.add(DRY_AZALEA_PETALS);
             content.add(DANDELION_PETALS);
             content.add(DRY_DANDELION_PETALS);
+            content.add(SPORE_BLOSSOM_PETAL);
             content.add(BUNDLE_DRY_PETALS);
         });
         ItemGroupEvents.modifyEntriesEvent(ALPHAWORLD2_ITEM_GROUP_LEAVES).register(content -> {

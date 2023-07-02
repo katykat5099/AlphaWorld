@@ -22,7 +22,7 @@ public class AlphaWorld2Items {
     public static final Item GRASS_STRING = new Item(new FabricItemSettings());
     public static final Item BUNDLE_DRY_GRASS = new Item(new FabricItemSettings());
 
-    //Petals & Dry Petal Materials
+    //Petals & Dry Petal Materials/Items
     public static final Item POPPY_PETALS = new Item(new FabricItemSettings());
     public static final Item DRY_POPPY_PETALS = new Item(new FabricItemSettings());
     public static final Item BLUE_ORCHID_PETALS = new Item(new FabricItemSettings());
@@ -55,11 +55,12 @@ public class AlphaWorld2Items {
     public static final Item PEONY_PETALS = new Item(new FabricItemSettings());
     public static final Item DRY_PEONY_PETALS = new Item(new FabricItemSettings());
     public static final Item DANDELION_PETALS = new Item(new FabricItemSettings());
+    public static final Item SPORE_BLOSSOM_PETAL = new Item(new FabricItemSettings());
     public static final Item DRY_DANDELION_PETALS = new Item(new FabricItemSettings());
     //---------------------------------------------------------------------------------------
     public static final Item BUNDLE_DRY_PETALS = new Item(new FabricItemSettings());
 
-    //Leaves & Dry Leaves
+    //Leaves & Dry Leaf Materials/Items
     public static final Item OAK_LEAVES_ITEM = new Item(new FabricItemSettings());
     public static final Item DRY_OAK_LEAVES_ITEM = new Item(new FabricItemSettings());
     public static final Item SPRUCE_LEAVES_ITEM = new Item(new FabricItemSettings());
@@ -83,7 +84,19 @@ public class AlphaWorld2Items {
     //---------------------------------------------------------------------------------------
     public static final Item BUNDLE_DRY_LEAVES = new Item(new FabricItemSettings());
 
-    //Stone, Gem and Metal Materials
+    //Fungi Materials/Items
+    public static final Item CRIMSON_FUNGUS_GRASS = new Item(new FabricItemSettings());
+    public static final Item WARPED_FUNGUS_GRASS = new Item(new FabricItemSettings());
+    public static final Item GLOW_LICHEN_ITEM = new Item(new FabricItemSettings());
+
+    //Other Flora Materials/Items
+    public static final Item ROOT_ITEM = new Item(new FabricItemSettings());
+    public static final Item VINE_ITEM = new Item(new FabricItemSettings());
+    public static final Item SEA_GRASS_ITEM = new Item(new FabricItemSettings());
+    //---------------------------------------------------------------------------------------
+    public static final Item BUNDLE_DRY_FLORA = new Item(new FabricItemSettings());
+
+    //Stone, Gem and Metal Materials/Items
     public static final Item DIAMOND_CUT = new Item(new FabricItemSettings());
     public static final Item EMERALD_CUT = new Item(new FabricItemSettings());
     public static final Item AMETHYST_CUT = new Item(new FabricItemSettings());
@@ -116,7 +129,6 @@ public class AlphaWorld2Items {
     public static final Item STEEL_BOOTS = new SteelArmorItem(CustomArmorMaterial.STEEL, ArmorItem.Type.BOOTS, new FabricItemSettings());
 
     //Misc
-    public static final Item BUNDLE_DRY_FLORA = new Item(new FabricItemSettings());
 
     public static void itemRegistry(){
         //Console Log
@@ -199,6 +211,13 @@ public class AlphaWorld2Items {
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "raw_tungsten"), RAW_TUNGSTEN);
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "tungsten_ingot"), TUNGSTEN_INGOT);
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "steel_ingot"), STEEL_INGOT);
+        Registry.register(Registries.ITEM, new Identifier("alphaworld2", "root_item"), ROOT_ITEM);
+        Registry.register(Registries.ITEM, new Identifier("alphaworld2", "vine_item"), VINE_ITEM);
+        Registry.register(Registries.ITEM, new Identifier("alphaworld2", "sea_grass_item"), SEA_GRASS_ITEM);
+        Registry.register(Registries.ITEM, new Identifier("alphaworld2", "crimson_fungus_grass"), CRIMSON_FUNGUS_GRASS);
+        Registry.register(Registries.ITEM, new Identifier("alphaworld2", "warped_fungus_grass"), WARPED_FUNGUS_GRASS);
+        Registry.register(Registries.ITEM, new Identifier("alphaworld2", "glow_lichen_item"), GLOW_LICHEN_ITEM);
+        Registry.register(Registries.ITEM, new Identifier("alphaworld2", "spore_blossom_petal"), SPORE_BLOSSOM_PETAL);
 
         //Tool Items Registry
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "stone_shard_pickaxe"), STONE_SHARD_PICKAXE);
