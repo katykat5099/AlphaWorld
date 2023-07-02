@@ -1,6 +1,9 @@
 {
   "item.alphaworld2.grass_item": "Grass",
   "item.alphaworld2.dry_grass": "Dry Grass",
+  "item.alphaworld2.vine_item": "Vine",
+  "item.alphaworld2.sea_grass_item": "Sea Grass",
+  "item.alphaworld2.root_item": "Root",
   "item.alphaworld2.bundle_dry_grass": "Bundle of Dry Grass",
   "item.alphaworld2.bundle_dry_leaves": "Bundle of Dry Leaves",
   "item.alphaworld2.bundle_dry_petals": "Bundle of Dry Pedals",
@@ -40,7 +43,10 @@
   "item.alphaworld2.dry_peony_petals": "Dry Peony Petals",
   "item.alphaworld2.azalea_petals": "Azalea Petals",
   "item.alphaworld2.dry_azalea_petals": "Dry Azalea Petals",
-  
+  "item.alphaworld2.dandelion_petals": "Dandelion Petals",
+  "item.alphaworld2.dry_dandelion_petals": "Dry Dandelion Petals",
+  "item.alphaworld2.spore_blossom_petal": "Spore Blossom Petal",
+
   "item.alphaworld2.oak_leaves_item": "Oak Leaves",
   "item.alphaworld2.dry_oak_leaves_item": "Dry Oak Leaves",
   "item.alphaworld2.spruce_leaves_item": "Spruce Needles",
@@ -59,7 +65,9 @@
   "item.alphaworld2.dry_fern_leaves": "Dry Fern Leaf",
   "item.alphaworld2.azalea_leaves_item": "Azalea Leaves",
   "item.alphaworld2.dry_azalea_leaves_item": "Dry Azalea Leaves",
-  
+  "item.alphaworld2.fern_leaf": "Fern Leaf",
+  "item.alphaworld2.dry_fern_leaf": "Dry Fern Leaf",
+
   "item.alphaworld2.stone_item": "Stone",
   "item.alphaworld2.stone_shard": "Stone Shard",
   "item.alphaworld2.grass_string": "Grass String",
@@ -78,6 +86,15 @@
   "item.alphaworld2.tungsten_ingot": "Tungsten Ingot",
   "item.alphaworld2.steel_ingot": "Steel Ingot",
   "item.alphaworld2.stone_shard_pickaxe": "Stone-Shard Pickaxe",
+  "item.alphaworld2.steel_shovel": "Steel Shovel",
+  "item.alphaworld2.steel_sword": "Steel Sword",
+  "item.alphaworld2.steel_pickaxe": "Steel Pickaxe",
+  "item.alphaworld2.steel_axe": "Steel Axe",
+  "item.alphaworld2.steel_hoe": "Steel Hoe",
+  "item.alphaworld2.steel_helmet": "Steel Helmet",
+  "item.alphaworld2.steel_chestplate": "Steel Chestplate",
+  "item.alphaworld2.steel_leggings": "Steel Leggings",
+  "item.alphaworld2.steel_boots": "Steel Boots",
 
   "block.alphaworld2.sapphire_ore": "Sapphire Ore",
   "block.alphaworld2.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
@@ -93,7 +110,7 @@
   "block.alphaworld2.tungsten_block": "Block of Tungsten",
   "block.alphaworld2.steel_block": "Block of Steel",
 
-  "itemGroup.alphaworld2.alphaworld2_item_group_grass": "Alpha World 2 Grass Items",
+  "itemGroup.alphaworld2.alphaworld2_item_group_plant_matter": "Alpha World 2 Plant/Fungi Matter",
   "itemGroup.alphaworld2.alphaworld2_item_group_petals": "Alpha World 2 Petal Items",
   "itemGroup.alphaworld2.alphaworld2_item_group_leaves": "Alpha World 2 Leaf Items",
   "itemGroup.alphaworld2.alphaworld2_item_group_minerals": "Alpha World 2 Mineral Items",
