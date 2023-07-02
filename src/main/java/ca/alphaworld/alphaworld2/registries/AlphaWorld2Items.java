@@ -121,12 +121,14 @@ public class AlphaWorld2Items {
     public static ToolItem STEEL_PICKAXE = new CustomPickaxeItem(SteelMaterial.INSTANCE, 5, 1.2F, new Item.Settings());
     public static ToolItem STEEL_AXE = new CustomAxeItem(SteelMaterial.INSTANCE, 9, 1.0F, new Item.Settings());
     public static ToolItem STEEL_HOE = new CustomHoeItem(SteelMaterial.INSTANCE, 4, 1.0F, new Item.Settings());
+    //Reminder to add curios eventually https://github.com/TheIllusiveC4/Curios/tree/1.19.x
 
     //Armor Items
     public static final Item STEEL_HELMET = new SteelArmorItem(CustomArmorMaterial.STEEL, ArmorItem.Type.HELMET, new FabricItemSettings());
     public static final Item STEEL_CHESTPLATE = new SteelArmorItem(CustomArmorMaterial.STEEL, ArmorItem.Type.CHESTPLATE, new FabricItemSettings());
     public static final Item STEEL_LEGGINGS = new SteelArmorItem(CustomArmorMaterial.STEEL, ArmorItem.Type.LEGGINGS, new FabricItemSettings());
     public static final Item STEEL_BOOTS = new SteelArmorItem(CustomArmorMaterial.STEEL, ArmorItem.Type.BOOTS, new FabricItemSettings());
+    //Reminder to add curios eventually https://github.com/TheIllusiveC4/Curios/tree/1.19.x
 
     //Misc
 

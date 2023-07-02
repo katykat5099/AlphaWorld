@@ -114,5 +114,47 @@
   "itemGroup.alphaworld2.alphaworld2_item_group_petals": "Alpha World 2 Petal Items",
   "itemGroup.alphaworld2.alphaworld2_item_group_leaves": "Alpha World 2 Leaf Items",
   "itemGroup.alphaworld2.alphaworld2_item_group_minerals": "Alpha World 2 Mineral Items",
-  "itemGroup.alphaworld2.alphaworld2_item_group_tools": "Alpha World 2 Tools"
+  "itemGroup.alphaworld2.alphaworld2_item_group_tools": "Alpha World 2 Tools",
+
+  "gui.text.alphaworld2.race_selection_title": "Select Your Race",
+  "gui.text.alphaworld2.race_selection_desc": "Click a button to select your race.",
+
+  "gui.button.alphaworld2.half_piglin_button": "Select Half-Piglin",
+  "gui.text.alphaworld2.half_piglin_chosen": "Selected Half-Piglin.",
+  "gui.text.alphaworld2.half_piglin_benefits": "Half-Piglin Benefits:",
+  "gui.text.alphaworld2.half_piglin_benefits_text_1": "Start in the Nether.",
+  "gui.text.alphaworld2.half_piglin_benefits_text_2": "You're much stronger.",
+  "gui.text.alphaworld2.half_piglin_drawbacks": "Half-Piglin Drawbacks:",
+  "gui.text.alphaworld2.half_piglin_drawbacks_text_1": "Start in the Nether.",
+  "gui.text.alphaworld2.half_piglin_drawbacks_text_2": "",
+  "gui.button.alphaworld2.half_piglin_choose": "Choose Piglin",
+
+  "gui.button.alphaworld2.half_enderman_button": "Select Half-Enderman",
+  "gui.text.alphaworld2.half_enderman_chosen": "Selected Half-Enderman.",
+  "gui.text.alphaworld2.half_enderman_benefits": "Half-Enderman Benefits:",
+  "gui.text.alphaworld2.half_enderman_benefits_text_1": "Enderpearls are keybind",
+  "gui.text.alphaworld2.half_enderman_benefits_text_2": "and don't hurt.",
+  "gui.text.alphaworld2.half_enderman_benefits_text_3": "Longer reach.",
+  "gui.text.alphaworld2.half_enderman_drawbacks": "Half-Enderman Drawbacks:",
+  "gui.text.alphaworld2.half_enderman_drawbacks_text_1": "Water damages you.",
+  "gui.text.alphaworld2.half_enderman_drawbacks_text_2": "You're 0.5m taller.",
+  "gui.button.alphaworld2.half_enderman_choose": "Choose Enderman",
+
+  "gui.button.alphaworld2.half_avian_button": "Select Half-Avian",
+  "gui.text.alphaworld2.half_avian_chosen": "Selected Half-Avian.",
+  "gui.text.alphaworld2.half_avian_benefits": "Half-Avian Benefits:",
+  "gui.text.alphaworld2.half_avian_benefits_text_1": "Permanent Elytra",
+  "gui.text.alphaworld2.half_avian_benefits_text_2": "",
+  "gui.text.alphaworld2.half_avian_drawbacks": "Half-Avian Drawbacks:",
+  "gui.text.alphaworld2.half_avian_drawbacks_text_1": "Take more damage.",
+  "gui.text.alphaworld2.half_avian_drawbacks_text_2": "Everyone hates you.",
+  "gui.button.alphaworld2.half_avian_choose": "Choose Avian",
+
+  "gui.button.alphaworld2.human_button": "Select Human",
+  "gui.text.alphaworld2.human_chosen": "Selected Human.",
+  "gui.text.alphaworld2.human_benefits": "Human Benefits:",
+  "gui.text.alphaworld2.human_benefits_text_1": "None!",
+  "gui.text.alphaworld2.human_drawbacks": "Human Drawbacks:",
+  "gui.text.alphaworld2.human_drawbacks_text_1": "None!",
+  "gui.button.alphaworld2.human_choose": "Choose Human"
 }

@@ -1,7 +1,7 @@
 package ca.alphaworld.alphaworld2;
 
-import ca.alphaworld.alphaworld2.client.screen.TestGui;
-import ca.alphaworld.alphaworld2.client.screen.TestScreen;
+import ca.alphaworld.alphaworld2.client.screen.RaceSelectionGui;
+import ca.alphaworld.alphaworld2.client.data.CustomScreen;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
@@ -22,7 +22,7 @@ public class AlphaWorld2ModClient implements ClientModInitializer {
         keyBinding = KeyBindingHelper.registerKeyBinding(new KeyBinding("key.alphaworld2.test_gui", InputUtil.Type.KEYSYM, GLFW.GLFW_KEY_N, "category.alphaworld2.testing"));
 
         ClientTickEvents.END_CLIENT_TICK.register(client -> {while(keyBinding.wasPressed()){
-            MinecraftClient.getInstance().setScreen(new TestScreen(new TestGui()));
+            MinecraftClient.getInstance().setScreen(new CustomScreen(new RaceSelectionGui()));
         }});
     }
 }
