@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "alphaworld2:item/bundle_dry_leaves"
+    "layer0": "alphaworld2:item/leaf/dry/bundle_dry_leaves"
   }
 }

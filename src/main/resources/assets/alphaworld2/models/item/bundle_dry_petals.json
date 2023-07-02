@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "alphaworld2:item/bundle_dry_petals"
+    "layer0": "alphaworld2:item/petal/dry/bundle_dry_petals"
   }
 }

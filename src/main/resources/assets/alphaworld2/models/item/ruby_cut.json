@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "alphaworld2:item/ruby_cut"
+    "layer0": "alphaworld2:item/mineral/cut/ruby_cut"
   }
 }

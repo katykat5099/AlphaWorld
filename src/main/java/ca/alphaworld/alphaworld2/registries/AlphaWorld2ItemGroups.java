@@ -85,8 +85,8 @@ public class AlphaWorld2ItemGroups {
             content.add(DRY_AZALEA_LEAVES_ITEM);
             content.add(MANGROVE_LEAVES_ITEM);
             content.add(DRY_MANGROVE_LEAVES_ITEM);
-            content.add(FERN_LEAVES);
-            content.add(DRY_FERN_LEAVES);
+            content.add(FERN_LEAF);
+            content.add(DRY_FERN_LEAF);
             content.add(BUNDLE_DRY_LEAVES);
         });
         ItemGroupEvents.modifyEntriesEvent(ALPHAWORLD2_ITEM_GROUP_MINERALS).register(content -> {

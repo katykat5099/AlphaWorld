@@ -78,8 +78,8 @@ public class AlphaWorld2Items {
     public static final Item DRY_AZALEA_PETALS = new Item(new FabricItemSettings());
     public static final Item MANGROVE_LEAVES_ITEM = new Item(new FabricItemSettings());
     public static final Item DRY_MANGROVE_LEAVES_ITEM = new Item(new FabricItemSettings());
-    public static final Item FERN_LEAVES = new Item(new FabricItemSettings());
-    public static final Item DRY_FERN_LEAVES = new Item(new FabricItemSettings());
+    public static final Item FERN_LEAF = new Item(new FabricItemSettings());
+    public static final Item DRY_FERN_LEAF = new Item(new FabricItemSettings());
     //---------------------------------------------------------------------------------------
     public static final Item BUNDLE_DRY_LEAVES = new Item(new FabricItemSettings());
 
@@ -180,8 +180,8 @@ public class AlphaWorld2Items {
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "dry_azalea_petals"), DRY_AZALEA_PETALS);
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "mangrove_leaves_item"), MANGROVE_LEAVES_ITEM);
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "dry_mangrove_leaves_item"), DRY_MANGROVE_LEAVES_ITEM);
-        Registry.register(Registries.ITEM, new Identifier("alphaworld2", "fern_leaves"), FERN_LEAVES);
-        Registry.register(Registries.ITEM, new Identifier("alphaworld2", "dry_fern_leaves"), DRY_FERN_LEAVES);
+        Registry.register(Registries.ITEM, new Identifier("alphaworld2", "fern_leaf"), FERN_LEAF);
+        Registry.register(Registries.ITEM, new Identifier("alphaworld2", "dry_fern_leaf"), DRY_FERN_LEAF);
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "stone_item"), STONE_ITEM);
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "stone_shard"), STONE_SHARD);
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "grass_string"), GRASS_STRING);

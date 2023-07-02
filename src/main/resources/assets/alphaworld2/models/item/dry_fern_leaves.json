@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "alphaworld2:item/leaf/dry/dry_fern_leaves"
-  }
-}
