@@ -113,6 +113,8 @@ public class AlphaWorld2Items {
     public static final Item TUNGSTEN_INGOT = new Item(new FabricItemSettings());
     public static final Item STEEL_INGOT = new Item(new FabricItemSettings());
     public static final Item SALT = new Item(new FabricItemSettings());
+    public static final Item RAW_PLATINUM = new Item(new FabricItemSettings());
+    public static final Item PLATINUM_INGOT = new Item(new FabricItemSettings());
 
     //Tool Items
     public static ToolItem STONE_SHARD_PICKAXE = new CustomPickaxeItem(StoneShardMaterial.INSTANCE, 1, 1, new Item.Settings());
@@ -220,6 +222,8 @@ public class AlphaWorld2Items {
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "warped_fungus_grass"), WARPED_FUNGUS_GRASS);
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "glow_lichen_item"), GLOW_LICHEN_ITEM);
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "spore_blossom_petal"), SPORE_BLOSSOM_PETAL);
+        Registry.register(Registries.ITEM, new Identifier("alphaworld2", "raw_plainum"), RAW_PLATINUM);
+        Registry.register(Registries.ITEM, new Identifier("alphaworld2", "platinum_ingot"), PLATINUM_INGOT);
 
         //Tool Items Registry
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "stone_shard_pickaxe"), STONE_SHARD_PICKAXE);

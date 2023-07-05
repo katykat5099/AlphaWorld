@@ -20,6 +20,7 @@ public class AlphaWorld2WorldGen {
     public static final RegistryKey<PlacedFeature> SILVER_ORE_PLACED_KEY = RegistryKey.of(RegistryKeys.PLACED_FEATURE, new Identifier("alphaworld2", "ore_silver"));
     public static final RegistryKey<PlacedFeature> SILVER_COMMON_ORE_PLACED_KEY = RegistryKey.of(RegistryKeys.PLACED_FEATURE, new Identifier("alphaworld2", "ore_silver_common"));
     public static final RegistryKey<PlacedFeature> TUNGSTEN_ORE_PLACED_KEY = RegistryKey.of(RegistryKeys.PLACED_FEATURE, new Identifier("alphaworld2", "ore_tungsten"));
+    public static final RegistryKey<PlacedFeature> PLATINUM_ORE_PLACED_KEY = RegistryKey.of(RegistryKeys.PLACED_FEATURE, new Identifier("alphaworld2", "ore_platinum"));
 
     public static void WorldGenStuff(){
         //Console Log
@@ -31,5 +32,6 @@ public class AlphaWorld2WorldGen {
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, SILVER_ORE_PLACED_KEY);
         BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.OLD_GROWTH_PINE_TAIGA, BiomeKeys.OLD_GROWTH_SPRUCE_TAIGA), GenerationStep.Feature.UNDERGROUND_ORES, SILVER_COMMON_ORE_PLACED_KEY);
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, TUNGSTEN_ORE_PLACED_KEY);
+        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, PLATINUM_ORE_PLACED_KEY);
     }
 }

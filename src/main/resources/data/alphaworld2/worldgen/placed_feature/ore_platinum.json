@@ -1,9 +1,9 @@
 {
-  "feature": "alphaworld2:ore_tungsten",
+  "feature": "alphaworld2:ore_platinum",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 7
+      "count": 1
     },
     {
       "type": "minecraft:in_square"
@@ -13,10 +13,10 @@
       "height": {
         "type": "minecraft:trapezoid",
         "max_inclusive": {
-          "above_bottom": 16
+          "absolute": 48
         },
         "min_inclusive": {
-          "above_bottom": -64
+          "absolute": -16
         }
       }
     },

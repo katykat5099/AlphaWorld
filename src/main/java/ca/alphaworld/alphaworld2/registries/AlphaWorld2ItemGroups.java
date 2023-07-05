@@ -126,6 +126,11 @@ public class AlphaWorld2ItemGroups {
             content.add(TUNGSTEN_BLOCK);
             content.add(STEEL_INGOT);
             content.add(STEEL_BLOCK);
+            content.add(PLATINUM_ORE);
+            content.add(DEEPSLATE_PLATINUM_ORE);
+            content.add(RAW_PLATINUM);
+            content.add(PLATINUM_INGOT);
+            content.add(PLATINUM_BLOCK);
             content.add(SALT);
         });
         ItemGroupEvents.modifyEntriesEvent(ALPHAWORLD2_ITEM_GROUP_TOOLS).register(content -> {
