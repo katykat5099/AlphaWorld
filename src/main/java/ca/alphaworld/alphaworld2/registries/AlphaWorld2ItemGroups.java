@@ -117,11 +117,13 @@ public class AlphaWorld2ItemGroups {
             content.add(SILVER_ORE);
             content.add(DEEPSLATE_SILVER_ORE);
             content.add(RAW_SILVER);
+            content.add(RAW_SILVER_BLOCK);
             content.add(SILVER_INGOT);
             content.add(SILVER_BLOCK);
             content.add(TUNGSTEN_ORE);
             content.add(DEEPSLATE_TUNGSTEN_ORE);
             content.add(RAW_TUNGSTEN);
+            content.add(RAW_TUNGSTEN_BLOCK);
             content.add(TUNGSTEN_INGOT);
             content.add(TUNGSTEN_BLOCK);
             content.add(STEEL_INGOT);
@@ -129,6 +131,7 @@ public class AlphaWorld2ItemGroups {
             content.add(PLATINUM_ORE);
             content.add(DEEPSLATE_PLATINUM_ORE);
             content.add(RAW_PLATINUM);
+            content.add(RAW_PLATINUM_BLOCK);
             content.add(PLATINUM_INGOT);
             content.add(PLATINUM_BLOCK);
             content.add(SALT);

@@ -31,9 +31,12 @@ public class AlphaWorld2Blocks {
     public static final Block SAPPHIRE_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool().sounds(BlockSoundGroup.METAL));
     public static final Block RUBY_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool().sounds(BlockSoundGroup.METAL));
     public static final Block SILVER_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool().sounds(BlockSoundGroup.METAL));
+    public static final Block RAW_SILVER_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool().sounds(BlockSoundGroup.METAL));
     public static final Block TUNGSTEN_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool().sounds(BlockSoundGroup.METAL));
+    public static final Block RAW_TUNGSTEN_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool().sounds(BlockSoundGroup.METAL));
     public static final Block STEEL_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool().sounds(BlockSoundGroup.METAL));
     public static final Block PLATINUM_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool().sounds(BlockSoundGroup.METAL));
+    public static final Block RAW_PLATINUM_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool().sounds(BlockSoundGroup.METAL));
 
     public static void blockRegistry(){
         //Console Log
@@ -56,9 +59,12 @@ public class AlphaWorld2Blocks {
         Registry.register(Registries.BLOCK, new Identifier("alphaworld2", "sapphire_block"), SAPPHIRE_BLOCK);
         Registry.register(Registries.BLOCK, new Identifier("alphaworld2", "ruby_block"), RUBY_BLOCK);
         Registry.register(Registries.BLOCK, new Identifier("alphaworld2", "silver_block"), SILVER_BLOCK);
+        Registry.register(Registries.BLOCK, new Identifier("alphaworld2", "raw_silver_block"), RAW_SILVER_BLOCK);
         Registry.register(Registries.BLOCK, new Identifier("alphaworld2", "tungsten_block"), TUNGSTEN_BLOCK);
+        Registry.register(Registries.BLOCK, new Identifier("alphaworld2", "raw_tungsten_block"), RAW_TUNGSTEN_BLOCK);
         Registry.register(Registries.BLOCK, new Identifier("alphaworld2", "steel_block"), STEEL_BLOCK);
         Registry.register(Registries.BLOCK, new Identifier("alphaworld2", "platinum_block"), PLATINUM_BLOCK);
+        Registry.register(Registries.BLOCK, new Identifier("alphaworld2", "raw_platinum_block"), RAW_PLATINUM_BLOCK);
 
         //Block Item Registry
         //Ores
@@ -77,8 +83,11 @@ public class AlphaWorld2Blocks {
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "sapphire_block"), new BlockItem(SAPPHIRE_BLOCK, new FabricItemSettings()));
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "ruby_block"), new BlockItem(RUBY_BLOCK, new FabricItemSettings()));
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "silver_block"), new BlockItem(SILVER_BLOCK, new FabricItemSettings()));
+        Registry.register(Registries.ITEM, new Identifier("alphaworld2", "raw_silver_block"), new BlockItem(RAW_SILVER_BLOCK, new FabricItemSettings()));
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "tungsten_block"), new BlockItem(TUNGSTEN_BLOCK, new FabricItemSettings()));
+        Registry.register(Registries.ITEM, new Identifier("alphaworld2", "raw_tungsten_block"), new BlockItem(RAW_TUNGSTEN_BLOCK, new FabricItemSettings()));
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "steel_block"), new BlockItem(STEEL_BLOCK, new FabricItemSettings()));
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "platinum_block"), new BlockItem(PLATINUM_BLOCK, new FabricItemSettings()));
+        Registry.register(Registries.ITEM, new Identifier("alphaworld2", "raw_platinum_block"), new BlockItem(RAW_PLATINUM_BLOCK, new FabricItemSettings()));
     }
 }

@@ -222,7 +222,7 @@ public class AlphaWorld2Items {
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "warped_fungus_grass"), WARPED_FUNGUS_GRASS);
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "glow_lichen_item"), GLOW_LICHEN_ITEM);
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "spore_blossom_petal"), SPORE_BLOSSOM_PETAL);
-        Registry.register(Registries.ITEM, new Identifier("alphaworld2", "raw_plainum"), RAW_PLATINUM);
+        Registry.register(Registries.ITEM, new Identifier("alphaworld2", "raw_platinum"), RAW_PLATINUM);
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "platinum_ingot"), PLATINUM_INGOT);
 
         //Tool Items Registry
