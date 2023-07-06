@@ -1,5 +1,7 @@
 package ca.alphaworld.alphaworld2.registries;
 
+import ca.alphaworld.alphaworld2.data.blocks.CrucibleBlock;
+import ca.alphaworld.alphaworld2.data.items.CrucibleBlockItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -38,6 +40,9 @@ public class AlphaWorld2Blocks {
     public static final Block PLATINUM_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool().sounds(BlockSoundGroup.METAL));
     public static final Block RAW_PLATINUM_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool().sounds(BlockSoundGroup.METAL));
 
+    //Block Entities
+    public static final Block CRUCIBLE = new CrucibleBlock(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool());
+
     public static void blockRegistry(){
         //Console Log
         LOGGER.info("Loading Blocks...");
@@ -66,6 +71,8 @@ public class AlphaWorld2Blocks {
         Registry.register(Registries.BLOCK, new Identifier("alphaworld2", "platinum_block"), PLATINUM_BLOCK);
         Registry.register(Registries.BLOCK, new Identifier("alphaworld2", "raw_platinum_block"), RAW_PLATINUM_BLOCK);
 
+        Registry.register(Registries.BLOCK, new Identifier("alphaworld2", "crucible"), CRUCIBLE);
+
         //Block Item Registry
         //Ores
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "sapphire_ore"), new BlockItem(SAPPHIRE_ORE, new FabricItemSettings()));
@@ -89,5 +96,7 @@ public class AlphaWorld2Blocks {
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "steel_block"), new BlockItem(STEEL_BLOCK, new FabricItemSettings()));
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "platinum_block"), new BlockItem(PLATINUM_BLOCK, new FabricItemSettings()));
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "raw_platinum_block"), new BlockItem(RAW_PLATINUM_BLOCK, new FabricItemSettings()));
+
+        Registry.register(Registries.ITEM, new Identifier("alphaworld2", "crucible"), new CrucibleBlockItem(CRUCIBLE, new FabricItemSettings()));
     }
 }

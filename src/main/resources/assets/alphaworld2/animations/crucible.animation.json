@@ -1,0 +1,41 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.crucible.idle": {
+			"loop": true,
+			"animation_length": 0.25,
+			"bones": {
+				"metal": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.25": {
+							"vector": [0, 0, 0]
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 1, 0]
+						},
+						"0.25": {
+							"vector": [0, 1, 0]
+						}
+					},
+					"scale": {
+						"0.0": {
+							"vector": [1, 0.2, 1]
+						},
+						"0.25": {
+							"vector": [1, 0.2, 1]
+						}
+					}
+				}
+			}
+		},
+		"animation.crucible.smelt": {
+			"loop": true
+		}
+	},
+	"geckolib_format_version": 2
+}

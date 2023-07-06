@@ -1,12 +1,11 @@
 package ca.alphaworld.alphaworld2;
 
-import ca.alphaworld.alphaworld2.registries.AlphaWorld2Blocks;
-import ca.alphaworld.alphaworld2.registries.AlphaWorld2ItemGroups;
-import ca.alphaworld.alphaworld2.registries.AlphaWorld2Items;
-import ca.alphaworld.alphaworld2.registries.AlphaWorld2WorldGen;
+import ca.alphaworld.alphaworld2.registries.AlphaWorld2ScreenHandlers;
+import ca.alphaworld.alphaworld2.registries.*;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import software.bernie.geckolib.GeckoLib;
 
 public class AlphaWorld2Mod implements ModInitializer {
 	// This logger is used to write text to the console and the log file.
@@ -22,11 +21,18 @@ public class AlphaWorld2Mod implements ModInitializer {
 
 		LOGGER.info("Initializing...");
 
+		GeckoLib.initialize();
+
 		//Register Items
 		AlphaWorld2Items.itemRegistry();
 
 		//Register Blocks
 		AlphaWorld2Blocks.blockRegistry();
+
+		//Register Block Entities
+		AlphaWorld2BlockEntities.blockEntityRegistry();
+
+		AlphaWorld2ScreenHandlers.registerAllScreenHandlers();
 
 		//Register Item Group
 		AlphaWorld2ItemGroups.itemGroupRegistry();
