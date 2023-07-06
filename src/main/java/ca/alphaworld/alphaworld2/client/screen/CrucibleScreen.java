@@ -35,7 +35,7 @@ public class CrucibleScreen extends HandledScreen<CrucibleScreenHandler> {
 
     private void renderProgressArrow(MatrixStack matrices, int x, int y) {
         if(handler.isCrafting()) {
-            drawTexture(matrices, x + 105, y + 33, 176, 0, 8, handler.getScaledProgress());
+            drawTexture(matrices, x + 79, y + 35, 176, 14, 24, handler.getScaledProgress());
         }
     }
 
