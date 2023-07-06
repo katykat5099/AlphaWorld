@@ -158,5 +158,6 @@
   "gui.text.alphaworld2.human_drawbacks_text_1": "None!",
   "gui.button.alphaworld2.human_choose": "Choose Human",
 
-  "gui.text.alphaworld2.crucible": "Crucible"
+  "gui.text.alphaworld2.crucible": "Crucible",
+  "gui.text.alphaworld2.fuel_source_block": "Fuel the Fire"
 }

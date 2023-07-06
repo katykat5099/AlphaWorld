@@ -1,7 +1,9 @@
 package ca.alphaworld.alphaworld2.registries;
 
 import ca.alphaworld.alphaworld2.data.blocks.CrucibleBlock;
+import ca.alphaworld.alphaworld2.data.blocks.FuelSourceBlock;
 import ca.alphaworld.alphaworld2.data.items.CrucibleBlockItem;
+import ca.alphaworld.alphaworld2.data.items.FuelSourceBlockItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -42,6 +44,7 @@ public class AlphaWorld2Blocks {
 
     //Block Entities
     public static final Block CRUCIBLE = new CrucibleBlock(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool());
+    public static final Block FUEL_SOURCE_BLOCK = new FuelSourceBlock(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool());
 
     public static void blockRegistry(){
         //Console Log
@@ -72,6 +75,7 @@ public class AlphaWorld2Blocks {
         Registry.register(Registries.BLOCK, new Identifier("alphaworld2", "raw_platinum_block"), RAW_PLATINUM_BLOCK);
 
         Registry.register(Registries.BLOCK, new Identifier("alphaworld2", "crucible"), CRUCIBLE);
+        Registry.register(Registries.BLOCK, new Identifier("alphaworld2", "fuel_source_block"), FUEL_SOURCE_BLOCK);
 
         //Block Item Registry
         //Ores
@@ -98,5 +102,6 @@ public class AlphaWorld2Blocks {
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "raw_platinum_block"), new BlockItem(RAW_PLATINUM_BLOCK, new FabricItemSettings()));
 
         Registry.register(Registries.ITEM, new Identifier("alphaworld2", "crucible"), new CrucibleBlockItem(CRUCIBLE, new FabricItemSettings()));
+        Registry.register(Registries.ITEM, new Identifier("alphaworld2", "fuel_source_block"), new FuelSourceBlockItem(FUEL_SOURCE_BLOCK, new FabricItemSettings()));
     }
 }

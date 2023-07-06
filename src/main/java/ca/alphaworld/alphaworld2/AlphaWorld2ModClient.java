@@ -1,7 +1,9 @@
 package ca.alphaworld.alphaworld2;
 
 import ca.alphaworld.alphaworld2.client.entity.CrucibleBlockRenderer;
+import ca.alphaworld.alphaworld2.client.entity.FuelSourceBlockRenderer;
 import ca.alphaworld.alphaworld2.client.screen.CrucibleScreen;
+import ca.alphaworld.alphaworld2.client.screen.FuelSourceBlockScreen;
 import ca.alphaworld.alphaworld2.client.screen.RaceSelectionGui;
 import ca.alphaworld.alphaworld2.client.data.CustomScreen;
 import ca.alphaworld.alphaworld2.registries.AlphaWorld2BlockEntities;
@@ -32,7 +34,9 @@ public class AlphaWorld2ModClient implements ClientModInitializer {
         }});
 
         HandledScreens.register(AlphaWorld2ScreenHandlers.CRUCIBLE_SCREEN_HANDLER, CrucibleScreen::new);
+        HandledScreens.register(AlphaWorld2ScreenHandlers.FUEL_SOURCE_BLOCK_SCREEN_HANDLER, FuelSourceBlockScreen::new);
 
         BlockEntityRendererFactories.register(AlphaWorld2BlockEntities.CRUCIBLE, CrucibleBlockRenderer::new);
+        BlockEntityRendererFactories.register(AlphaWorld2BlockEntities.FUEL_SOURCE_BLOCK, FuelSourceBlockRenderer::new);
     }
 }

@@ -1,0 +1,42 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.fuel_source_block",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Logs",
+					"pivot": [5, 1, 1.5],
+					"cubes": [
+						{"origin": [1.5, 4, -9.25], "size": [2, 2, 9], "pivot": [5, 1, 1.5], "rotation": [25, 45, 0], "uv": [42, 0]},
+						{"origin": [-1, 2, -6], "size": [2, 2, 9], "pivot": [0, 0, 0], "rotation": [25, -45, 0], "uv": [42, 0]},
+						{"origin": [-1, 2, -3], "size": [2, 2, 9], "pivot": [0, 0, 0], "rotation": [-25, -45, 0], "uv": [42, 0]},
+						{"origin": [1.5, 0, -5.25], "size": [2, 2, 9], "pivot": [5, 1, 1.5], "rotation": [-25, 45, 0], "uv": [42, 0]}
+					]
+				},
+				{
+					"name": "FuelMaterial",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-4, 0, -4], "size": [8, 0, 8], "uv": [40, 56]}
+					]
+				},
+				{
+					"name": "Fire",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [0, 0, -6], "size": [0, 10, 12], "pivot": [0, 0, 0], "rotation": [0, -45, 0], "uv": [0, -12]},
+						{"origin": [0, 0, -6], "size": [0, 10, 12], "pivot": [0, 0, 0], "rotation": [0, 45, 0], "uv": [0, -12]}
+					]
+				}
+			]
+		}
+	]
+}
